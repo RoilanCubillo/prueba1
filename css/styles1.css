@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "open sans";
+  font-family: "Inter";
   justify-content: center;
 }
 
@@ -46,8 +46,8 @@ nav > a {
 .mas {
   background: #afb5ae;
   font-size: 20px;
-  position: relative;
-  display: inline-block;
+  position: absolute;
+  display: flex;
   text-align: center;
 }
 
@@ -64,6 +64,7 @@ nav > a {
   padding: 40px;
   font-size: 20px;
   text-decoration: none;
+
 }
 
 .informacion {
@@ -79,9 +80,8 @@ nav > a {
   text-align: center;
 }
 
-.servicio{
-    background:#125a27;
+.servicio {
+  background: #125a27;
   padding: 40px;
-  font-size: 20px; 
-  
+  font-size: 20px;
 }
